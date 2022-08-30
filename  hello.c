@@ -2,19 +2,20 @@
 
 main()
 {
-    int fahr, celcius;
-    int lower, upper, step;
+    float kilometer, mile;
+    float lower, upper, step;
 
     lower = 0;
     upper = 300;
     step = 20;
 
-    fahr = lower;
+    kilometer = lower;
 
-    while (fahr <= upper)
+    while (kilometer <= upper)
     {
-        celcius = fahr + 273;
-        printf("%d :  %d\n", fahr, celcius);
-        fahr = fahr + step;
+        mile = kilometer * 0.621;
+
+        printf("%3.2f :  %6.2f\n", kilometer, mile);
+        kilometer = kilometer + step;
     }
 }
