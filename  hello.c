@@ -14,6 +14,9 @@ int main () {
             // printf("%d \n", cislo * yoop+1);
             // printf("%d \n", yoop+1);
             printf("_");
+
+
+            
         }
     }
 }
