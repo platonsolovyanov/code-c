@@ -15,8 +15,10 @@ int main () {
             // printf("%d \n", yoop+1);
             printf("_");
 
-
             
+
+
+
         }
     }
 }
