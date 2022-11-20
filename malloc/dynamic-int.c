@@ -18,8 +18,10 @@ int main () {
         for (int i = 0; i < N; i++)
             A[i] = i; 
 
+        
         free(A);
     }
+    
     printf("Array A successfule created!\n");   
     // system("pause");
 

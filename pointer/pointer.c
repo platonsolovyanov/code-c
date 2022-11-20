@@ -13,7 +13,10 @@ int main() {
 
     int num = 5;
     int * pNum = &num;
+
+    int * pTest = 123;
     
+    printf("%p\n", (int *) pTest);
     printf("%p\n", (void *) pNum);
     printf("%d\n", *pNum);
     printf("%p\n",(void *)  &num);

@@ -38,3 +38,22 @@ int main () {
 }
 
 
+
+
+
+
+int *m = (int*)malloc(10 * sizeof(int))
+        , i = 0, j = 0;
+ 
+    while(scanf("%d", &m[i++]) == 1 || != EOF)
+    {
+        if (i % 9 == 0)
+            realloc(m, (i + 10) * sizeof(int));
+    }
+    --i;
+    
+    for(j = 0; j < i; ++j)
+        printf("%d ", m[j]);
+    
+    printf("%d" (int *) m);
+    free(m);
